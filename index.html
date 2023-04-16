@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header title="Titulo Principal Projeto Formulário PRATICANDO">
+        <div id="titulotopo">
+            <h1>Projeto Formulário de pesquisa</h1>
+        </div>
+    </header>
+
+    
+    <main>
+      <fieldset>
+        <legend>Formulário</legend>
+        <form action="" method="get">
+
+            <div id="textbox">
+              <label for="">Nome:</label><br>
+              <input type="text" name="nome" id="" autofocus required placeholder="Seu nome" minlength="5" maxlength="25" ><br><br>
+              <label for="">Email:</label><br>
+              <input type="email" name="email" id="" autofocus required placeholder="Seu Email"><br><br>
+              <label for="">Idade - (opcional):</label><br>
+              <input type="number" name="Idade" id="" autofocus placeholder="Idade" min="0" max="100" >
+            </div>
+
+            <div id="funcao">
+            <p title="Qual opção melhor descreve sua função atual?">Qual opção melhor descreve sua função atual?</p>
+            <select name="função atual" id="" title="Escolha sua função atual abaixo">
+                <option value="">Selecione</option>
+                <option value="estudante">Estudante</option>
+                <option value="trabalho em tempo integral">Trabalho em tempo integral</option>
+                <option value="aprendiz em tempo integral">Aprendiz em tempo integral</option>
+                <option value="prefiro não dizer">Prefiro não dizer</option>
+                <option value="outros">Outros</option>
+            </select>
+            </div>
+
+            <div id="recomendacao" title="Você recomendaria o freeCodeCamp a um amigo?" >
+                <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+                <input title="Sim" type="radio" name="recomendção" id="sim" value="sim" ><label >Sim</label><br>
+                <input title="Não" type="radio" name="recomendção" id="não" value="não" ><label >Não</label><br>
+                <input title="Definitivamente Não" type="radio" name="recomendção" id="não" value="não2" ><label>Definitivamente não</label>
+            </div>
+
+            <div id="recurso">
+                <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+                <select title="Qual é o seu recurso favorito" name="recurso favorito" id="">
+                    <option value="">Selecione uma opção</option>
+                    <option value="desafios">Desafios</option>
+                    <option value="projetos">Projetos</option>
+                    <option value="comunidade">Comunidade</option>
+                    <option value="open Source">Open Source</option>
+                </select>
+            </div>
+
+            <div id="melhorado" title="Marque todos os que se aplicam">
+                <p>O que você gostaria de ver melhorado? <br><blockquote>(Marque todos os que se aplicam)</blockquote></p>
+                <input type="checkbox" name="melhorar[]" value="Projetos front-end"><label for="">Projetos front-end</label><br>
+                <input type="checkbox" name="melhorar[]" value="Projetos de back-end"><label for="">Projetos de back-end</label><br>
+                <input type="checkbox" name="melhorar[]" value="Visualização de dados"><label for="">Visualização de dados</label><br>
+                <input type="checkbox" name="melhorar[]" value="Desafios"><label for="">Desafios</label><br>
+                <input type="checkbox" name="melhorar[]" value="Comunidade de código aberto"><label for="">Comunidade de código aberto</label><br>
+                <input type="checkbox" name="melhorar[]" value="Salas de ajuda do Gitter"><label for="">Salas de ajuda do Gitter</label><br>
+                <input type="checkbox" name="melhorar[]" value="Videos"><label for="">Videos</label><br>
+                <input type="checkbox" name="melhorar[]" value="Encontros da cidade"><label for="">Encontros da cidade</label><br>
+                <input type="checkbox" name="melhorar[]" value="Wiki"><label for="">Wiki</label><br>
+                <input type="checkbox" name="melhorar[]" value="Forum"><label for="">Forum</label><br>
+                <input type="checkbox" name="melhorar[]" value="Cursos adicionais"><label for="">Cursos adicionais</label>
+                <br><br>
+                <p title="Escreva seu comentário">Algum comentário ou sugestão?</p>
+                <textarea name="comentario-sugestao" id="" cols="30" rows="10" placeholder="Escreva seu cometario" title="Escreva seu comentário"></textarea>
+
+            </div><br><br>
+
+            <div id="submit" title="Botão para enviar Formulário">
+                <button type="submit" name="Enviar">Enviar</button>
+            </div>
+            
+        </form>
+      </fieldset>  
+    </main>
+
+    <footer>
+        <div id="rodape">
+            <p><b>Entre em contato atraves</b></p>
+            <figure>
+                <a href="https://www.linkedin.com/in/gustavo-igor-da-silva-36a0a2266/" target="_blank"><img src="assets/img/linkedin.png" alt="Logo Linkedin" srcset=""></a>
+                <a href="https://github.com/gustavoigoor?tab=repositories" target="_blank"><img src="assets/img/github.png" alt="Logo GitHub" srcset=""></a>
+                <a href="mailto:gustavo.xokito@gmail.com"><img src="assets/img/o-email.png" alt="Logo Email" srcset=""></a></a>
+            </figure>
+        </div>
+    </footer>
+    
+</body>
+</html>

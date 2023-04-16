@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lilita+One&family=Playfair+Display+SC&family=Sedgwick+Ave+Display&family=Share+Tech+Mono&display=swap');
+
+
+header div#titulotopo h1{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;;
+}
+body{
+    background-image: url(assets/img/fundo-body.jpg);
+    margin: 0;
+}
+form{
+    margin-right: 100px ;
+    margin-left: auto;
+    width: 50%;
+}
+fieldset{
+    background-color: rgba(137, 43, 226, 0.50);
+    border-color: whitesmoke;
+    border-radius: 10px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 50%;
+}
+legend{
+    background-color: rgba(160, 6, 70, 0.63);
+    border-radius: 5px;
+    font-family: 'Share Tech Mono', monospace;
+}
+div#textbox label{
+    font-family: Cambria;
+    font-size: large;
+    font-style: initial;
+}
+div#textbox input{
+    border-radius: 5px;
+    min-width: 10%;
+    max-width: 80%;
+    font-size: 20px; 
+}
+div#funcao p{
+    font-family: Cambria;
+    font-size: larger;
+}
+select{
+    width: 50%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+div#recomendacao p{
+    font-family: Cambria;
+    font-size: larger;
+}
+div#recomendacao label{
+    font-family: Cambria;
+    font-style: italic;
+    font-size: large;
+}
+div#recurso p{
+    font-family: Cambria;
+    font-size: larger;
+}
+div#melhorado p{
+    font-family: Cambria;
+    font-size: large;
+}
+div#melhorado blockquote{
+    margin-top: -1%;
+    font-style: italic;
+    font-size: small;
+}
+div#melhorado label{
+    font-style: italic;
+    font-family: Cambria;
+    font-size: large;
+}
+div#melhorado textarea{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 50%;
+    width: 300px;
+}
+button {
+    background-color: #1877f2; 
+    border: none; 
+    border-radius: 6px; 
+    color: #fff;
+    flex-grow: 1;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    height: 36px; 
+    line-height: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    min-width: 185px; 
+    padding: 0 16px 0 16px; 
+    transition: 0.3s; 
+    cursor: pointer; 
+}   
+button:hover{
+    background-color: #e4e6eb; 
+    color: #050505; 
+    font-size: 30px; 
+    transition: 0.3s; 
+} 
+div#rodape p{
+    font-family:'Share Tech Mono', monospace;
+    margin-left: 45%;
+    margin-right: auto;
+}
+footer div#rodape figure{
+    margin-left: 45%;
+    margin-right: auto;
+}
+footer div#rodape figure img{
+    width: 40px;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+
